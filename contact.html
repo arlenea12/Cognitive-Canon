@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Research on Mental and Physical Illnesses</title>
+	<link rel="icon" type="image/x-icon" href="img/fav.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="dflex">
+				<div class="logo">
+					Cognitive Canon
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="games.html">Games</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="contact.html" class="activem">Contact</a></li>
+					</ul>
+					<i class="fa fa-bars" onclick="openm();"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="sm-banner">
+		<div class="container">
+			<h1 class="text-center">CONTACT</h1>
+		</div>
+		<div class="area" >
+			<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="games-list">
+		<div class="container">
+			<form>
+				<input type="text" name="name" class="tbox" placeholder="Full Name" required />
+				<input type="email" name="Email" class="tbox" placeholder="Email" required />
+				<textarea  name="msg" class="tbox" placeholder="Message" required></textarea>
+				<input type="submit" name="sub" value="Submit" class="btn">
+			</form>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="social">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class="text-center">© 2023 Website All Rights Reserved.</div>
+		</div>
+	</footer>
+	<script src='js/buttonanimation.js'></script>
+	<script  src="js/script.js"></script>
+	<script>
+		$(window).scroll(function() {    
+			var scroll = $(window).scrollTop();
+
+			 //>=, not <=
+			if (scroll >= 100) {
+				//clearHeader, not clearheader - caps H
+				$("header").addClass("blackbg");
+			}else{
+				$("header").removeClass("blackbg");
+			}
+		}); //missing );
+
+		function openm(){
+			$('.nav ul').toggle();
+		}
+	</script>
+</body>
+</html>

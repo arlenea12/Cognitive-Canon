@@ -1,0 +1,1 @@
+Name the picture and change it in the style.css file
