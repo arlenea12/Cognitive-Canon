@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>Calming Puzzle</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>Calming Puzzle</h1>
+        <p>drag parts to collect the correct img</p>
+      </div>
+      <div class="body" style="position: relative">
+        <div class="show">
+          <h2>choose your game mode</h2>
+          <span class="active" data-mode="3">easy</span>
+          <span data-mode="4">medium</span>
+          <span data-mode="5">hard</span>
+          <span data-mode="6"> very hard</span>
+          <button>start game</button>
+        </div>
+        <ul class="sort">
+        </ul>
+        <div class="option">
+          <div class="steps">steps count:</div>
+          <div class="count">0</div>
+          <div class="act-img">
+            <img src="imgs/img-01.jpg" alt="" />
+          </div>
+          <div class="act-level">
+            <span>easy for test</span>
+          <button id="exit">exit img</button>
+        </div>
+      </div>
+      <div class="win" style="opacity: 1;">
+        <h2>congratulation you made it ^_^</h2>
+        <div class="steps">you win in:</div>
+        <div class="count">0</div>
+        <span>Play More</span>
+
+      </div>
+    </div>
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
