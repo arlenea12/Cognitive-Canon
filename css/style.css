@@ -294,6 +294,15 @@ h4 {
     padding: 5px; /* Example padding */
 
 }
+p {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #444444; /* Example background color */
+    padding: 10px; /* Example padding */
+    border-left: 4px solid #f8002f; /* Example left border */
+    margin-bottom: 15px;
+    text-align: justify; /* Example text alignment */
+}
 .ttwo-col{
 	grid-template-columns: repeat(2, 1fr);
 	display: grid;
