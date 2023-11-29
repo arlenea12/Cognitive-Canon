@@ -283,12 +283,16 @@ h3 {
     font-size: 24px; /* Adjust the size as needed */
     color: #ffffff; /* This is white, change if you need a different color */
     margin-bottom: 10px; /* Adjust spacing as needed */
+    padding: 5px; /* Example padding */
+
 }
 
 h4 {
     font-size: 20px; /* Adjust the size as needed */
     color: #ffffff; /* This is white, change if you need a different color */
     margin-bottom: 8px; /* Adjust spacing as needed */
+    padding: 5px; /* Example padding */
+
 }
 .ttwo-col{
 	grid-template-columns: repeat(2, 1fr);
