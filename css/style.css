@@ -297,8 +297,7 @@ h4 {
 p {
     font-size: 16px;
     color: #ffffff;
-    padding: 10px; /* Example padding */
-    margin-bottom: 15px;
+    padding: 5px; /* Example padding */
     text-align: justify; /* Example text alignment */
 }
 .ttwo-col{
